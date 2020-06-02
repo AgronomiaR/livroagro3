@@ -1,0 +1,9 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">Aplicações práticas do software R para Agronomia</a></li>
+      after: |
+        <li><a href="https://agronomiar.github.io/livroagro2/" target="blank">Anterior</a></li>
+    download: ["pdf", "epub"]
